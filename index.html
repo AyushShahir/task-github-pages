@@ -3,84 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My DevOps Portfolio</title>
+    <meta name="description" content="Ayush Shahir's portfolio — Computer Science student exploring DevOps, cloud computing, AI and automation.">
+    <title>Ayush Shahir | Cloud, DevOps & AI Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <a class="logo" href="#">MyPortfolio</a>
+            <a class="logo" href="#home">Ayush Shahir</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
+                <a href="#certifications">Learning</a>
                 <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <p class="tag">ASPIRING DEVOPS ENGINEER</p>
-            <h1>Hello, I'm <span>Ayush.</span></h1>
+        <section class="hero" id="home">
+            <p class="tag">COMPUTER SCIENCE STUDENT · CLOUD · DEVOPS · AI</p>
+            <h1>Hi, I'm <span>Ayush Shahir.</span></h1>
             <p class="intro">
-                I am a Computer Science student learning DevOps,
-                cloud computing, and automation by building projects.
+                I enjoy turning ideas into working projects and exploring
+                how applications are built, deployed, and maintained.
+                My interests include cloud computing, DevOps automation,
+                and AI-powered applications.
             </p>
-            <a class="button" href="#projects">Explore My Projects</a>
+            <div class="skills">
+                <span>Cloud Computing</span>
+                <span>DevOps</span>
+                <span>AI & RAG</span>
+            </div>
+            <p style="margin-top: 28px;">
+                <a class="button" href="#projects">Explore My Projects</a>
+                <a class="button"
+                   href="https://github.com/AyushShahir"
+                   target="_blank"
+                   rel="noopener noreferrer">GitHub Profile</a>
+            </p>
         </section>
 
         <section id="about" class="section">
             <h2>About Me</h2>
             <p>
-                I am passionate about technology and learning how to
-                build, deploy, and maintain reliable applications.
-                I enjoy learning through hands-on projects.
+                I'm a Computer Science and Engineering student at
+                MIT ADT University, Pune. I enjoy learning through
+                hands-on projects and experimenting with technologies
+                that solve real-world problems.
+            </p>
+            <p style="margin-top: 16px;">
+                My journey spans AI application development, retrieval-
+                augmented generation (RAG), cloud infrastructure,
+                containers, and CI/CD pipelines. I'm currently building
+                my foundations in DevOps and cloud engineering while
+                continuing to explore AI and automation.
+            </p>
+            <p style="margin-top: 16px;">
+                I believe in learning by building, documenting my work,
+                and improving one project at a time.
             </p>
         </section>
 
         <section id="skills" class="section">
-            <h2>My Learning Journey</h2>
+            <h2>Technologies & Interests</h2>
+            <p style="margin-bottom: 20px;">
+                Technologies I've explored through coursework,
+                practice, and hands-on projects.
+            </p>
             <div class="skills">
-                <span>Linux</span>
+                <span>Python</span>
+                <span>HTML & CSS</span>
                 <span>Git & GitHub</span>
+                <span>Linux</span>
                 <span>AWS</span>
                 <span>Docker</span>
                 <span>Jenkins</span>
                 <span>CI/CD</span>
+                <span>Terraform</span>
+                <span>SQL & MySQL</span>
+                <span>MongoDB</span>
+                <span>LangChain</span>
+                <span>RAG</span>
+                <span>Streamlit</span>
             </div>
         </section>
 
         <section id="projects" class="section">
-            <h2>Projects</h2>
+            <h2>Featured Projects</h2>
+            <p style="margin-bottom: 24px;">
+                A selection of projects I've developed or explored
+                while learning AI, cloud, and DevOps.
+            </p>
+
             <div class="project">
-                <h3>Jenkins CI/CD Pipeline</h3>
+                <h3>NYAAY — AI-Powered Legal Research</h3>
                 <p>
-                    Learning how to automate application build,
-                    test, and deployment using Jenkins and Docker.
+                    A legal research project focused on retrieving
+                    relevant information from legal documents using
+                    retrieval-augmented generation (RAG).
+                </p>
+                <p style="margin-top: 12px;">
+                    <a href="https://github.com/Atharv-Vyahalkar/NYAAY"
+                       target="_blank"
+                       rel="noopener noreferrer">View Repository →</a>
                 </p>
             </div>
+
+            <div class="project">
+                <h3>YouTube RAG Chatbot</h3>
+                <p>
+                    An AI application that uses YouTube transcript
+                    content to help users ask questions about videos.
+                    Explores transcript extraction, embeddings,
+                    vector storage, and retrieval-based answers.
+                </p>
+                <p style="margin-top: 12px;">
+                    <a href="https://github.com/AyushShahir?tab=repositories"
+                       target="_blank"
+                       rel="noopener noreferrer">Find on GitHub →</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Smart Email Summarizer</h3>
+                <p>
+                    An AI-powered application that summarizes email
+                    content, exploring Python backend development
+                    and integration with a large language model API.
+                </p>
+                <p style="margin-top: 12px;">
+                    <a href="https://github.com/AyushShahir?tab=repositories"
+                       target="_blank"
+                       rel="noopener noreferrer">Find on GitHub →</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Jenkins & Docker CI/CD Pipeline</h3>
+                <p>
+                    A hands-on DevOps project exploring automated
+                    build, test, and deployment stages using Jenkins
+                    and Docker, with a GitHub-hosted codebase.
+                </p>
+                <p style="margin-top: 12px;">
+                    <a href="https://github.com/AyushShahir/jenkins-docker-cicd"
+                       target="_blank"
+                       rel="noopener noreferrer">View Repository →</a>
+                </p>
+            </div>
+
             <div class="project">
                 <h3>Static Website Deployment</h3>
                 <p>
-                    This website is deployed using GitHub Pages
-                    as part of my DevOps internship.
+                    This portfolio is deployed using GitHub Pages.
+                    It demonstrates static website hosting,
+                    Git version control, and publishing changes
+                    from a GitHub repository.
+                </p>
+            </div>
+
+            <p style="margin-top: 24px;">
+                <a class="button"
+                   href="https://github.com/AyushShahir?tab=repositories"
+                   target="_blank"
+                   rel="noopener noreferrer">View All Repositories</a>
+            </p>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Education & Learning</h2>
+
+            <div class="project">
+                <h3>B.Tech — Computer Science & Engineering</h3>
+                <p>MIT ADT University · 2024–2028</p>
+            </div>
+
+            <div class="project">
+                <h3>AWS Cloud Practitioner Essentials</h3>
+                <p>Amazon Web Services · Completed December 2025</p>
+            </div>
+
+            <div class="project">
+                <h3>AWS Cloud Quest: Cloud Practitioner</h3>
+                <p>Amazon Web Services · Training badge, February 2026</p>
+            </div>
+
+            <div class="project">
+                <h3>The Bits and Bytes of Computer Networking</h3>
+                <p>Coursera · Completed January 2026</p>
+            </div>
+
+            <div class="project">
+                <h3>Python from Scratch</h3>
+                <p>JetBrains · Coursera, December 2025</p>
+            </div>
+
+            <div class="project">
+                <h3>Additional Learning & Participation</h3>
+                <p>
+                    Spoken Tutorial Project at IIT Bombay and
+                    Smart India Hackathon participation.
                 </p>
             </div>
         </section>
 
         <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Connect with me through GitHub.</p>
-            <a class="button"
-               href="https://github.com/"
-               target="_blank"
-               rel="noopener noreferrer">Visit GitHub</a>
+            <h2>Let's Connect</h2>
+            <p>
+                I'm always interested in learning, building projects,
+                and connecting with people in technology.
+            </p>
+            <p style="margin-top: 24px;">
+                <a class="button"
+                   href="https://github.com/AyushShahir"
+                   target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+
+                <a class="button"
+                   href="https://www.linkedin.com/in/ayush-yogesh-shahir-75256b332/"
+                   target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>Built with HTML and CSS | Deployed using GitHub Pages</p>
+        <p>Designed with HTML & CSS · Hosted on GitHub Pages</p>
+        <p>© 2026 Ayush Shahir</p>
     </footer>
 </body>
 </html>
