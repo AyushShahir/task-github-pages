@@ -1,20 +1,20 @@
-# DevOps Task 6 - Static Website Hosting
+# 🌐 DevOps Task 6 - Static Website Hosting
 
-## Objective
+## 🎯 Objective
 Deploy a static website using GitHub Pages.
 
-## Project Description
+## 📘 Project Description
 This project is a responsive portfolio website created using
 HTML and CSS as part of a DevOps training internship.
 
-## Technologies Used
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - Git
 - GitHub
 - GitHub Pages
 
-## Features
+## ✨ Features
 - Responsive layout
 - About Me section
 - Skills section
@@ -22,17 +22,17 @@ HTML and CSS as part of a DevOps training internship.
 - Contact section
 - Navigation links
 
-## Deployment
+## 🚀 Deployment
 The website is hosted using GitHub Pages.
 
-Live Website: https://ayushshahir.github.io/task-github-pages/#projects
+🔗 Live Website: https://ayushshahir.github.io/task-github-pages/#projects
 
-GitHub Repository: https://github.com/AyushShahir/task-github-pages.git
+📂 GitHub Repository: https://github.com/AyushShahir/task-github-pages.git
 
-## How to Run Locally
+## 💻 How to Run Locally
 Open index.html in a web browser.
 
-## Learning Outcomes
+## 📚 Learning Outcomes
 - Learned basic HTML and CSS.
 - Learned Git repository initialization and commits.
 - Uploaded code to GitHub.
